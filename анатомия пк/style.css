@@ -1,0 +1,132 @@
+.container{
+	width: 900px;
+	height: 420px;
+	margin: 0 auto;
+	background-color: #99cc99;
+	border: 1px solid black;
+}
+.header{
+	height: 155px;
+	font-family: Arial bold;
+	font-size: 24pt;
+	text-align: center;
+	background-color: #99cc99;
+}
+.sub-header {
+	width: 49%;
+	border: 1px solid black;
+	font-family: Arial;
+	font-size: 20pt;
+	text-align: center;
+	background-color: #b3bc20;
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+
+}
+.menu {
+	width: 49%;
+	border: 1px solid black;
+	font-family: Arial;
+	font-size: 14px;
+	text-align: center;
+	background-color: #fce17e;
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+}
+.block4{
+	position: relative;
+	top: -300px;
+}
+.block5{
+	position: relative;
+	left: 420px;
+	top: -250px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+.block6{
+	position: relative;
+	left: 400px;
+	top: -300px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+.block7{
+	position: relative;
+	left: 400px;
+	top: -500px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+.block8{
+	position: relative;
+	left: 420px;
+	top: -550px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+.block9{
+	position: relative;
+	left: 420px;
+	top: -300px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+.block10{
+	position: relative;
+	left: 420px;
+	top: -400px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+.block11{
+	position: relative;
+	left: 420px;
+	top: -170px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+#header-text{
+	position: relative;
+	top: 50px;
+	right: 80px;
+}
+#image-left{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+#image-right{
+	width: 150px;
+	height: 150px;
+	float: right;
+	position: relative;
+	top: -40px;
+}
+#raspolozenie{
+	position: relative;
+	top: -32px;
+}
+.header2{
+	height: 50px;
+	font-family: Arial bold;
+	font-size: 24pt;
+	text-align: center;
+	background-color: #99cc99;
+}
