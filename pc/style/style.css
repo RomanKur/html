@@ -1,0 +1,192 @@
+.container{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #99cc99;
+	border: 1px solid black;
+}
+.header{
+	height: 155px;
+	font-family: Arial bold;
+	font-size: 24pt;
+	text-align: center;
+	background-color: #99cc99;
+}
+#header-text{
+	position: relative;
+	top: 60px;
+}
+#image-left{
+	margin-left: 60px;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+#image-right{
+	width: 150px;
+	height: 150px;
+	float: right;
+	margin-right: 60px;
+}
+#nav{
+}
+#nav:after{
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.block-menu{
+	display: inline;
+	float: left;
+	margin-left: 12px;
+	width: 430px;
+}
+.sub-header {
+	width: 430px;
+	border: 1px solid black;
+	font-family: Arial;
+	font-size: 20pt;
+	text-align: center;
+	background-color: #b3bc20;
+	display: block-inline;
+}
+.menu {
+	width: 430px;
+	border: 1px solid black;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+	background-color: #fce17e;
+	display: block;	
+}
+
+.block4{
+	position: relative;
+	top: -300px;
+}
+.block5{
+	position: relative;
+	left: 420px;
+	top: -320px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+}
+.block6{
+	position: relative;
+	left: 400px;
+	top: -300px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+}
+.block7{
+	position: relative;
+	left: 400px;
+	top: -500px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+}
+.block8{
+	position: relative;
+	left: 420px;
+	top: -550px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+}
+.block9{
+	position: relative;
+	left: 420px;
+	top: -300px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+}
+.block10{
+	position: relative;
+	left: 420px;
+	top: -300px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+}
+.block11{
+	position: relative;
+	left: 420px;
+	top: -170px;
+	width: 50%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+
+.header2{
+	height: 50px;
+	font-family: Arial bold;
+	font-size: 28pt;
+	text-align: center;
+	background-color: #99cc99;
+}
+.button{
+	border: 1px solid black;
+	background-color: #b3bc20;
+	text-align: center;
+	font-size: 18px;
+}
+.text{
+	text-align: center;
+	font-size: 14px;
+}
+#img-center{
+	margin: 5px;
+	position: relative;
+	left: 250px;
+	height: 400px;
+	width: 400px;
+}
+body{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #fce17e;
+}
+
+#calendar4 {
+
+margin-left: 310px;
+position: relative;
+	top: -360px;
+  width: 300px;
+  height: 200px;
+  font: monospace;
+  line-height: 1.2em;
+  font-size: 20px;
+  text-align: center;
+}
+#calendar4 thead tr:last-child {
+  font-size: 20px;
+  font-weight: 700;
+  color: #99cc99;
+}
+#calendar4 tbody td {
+  color: #fce17e;
+}
+#calendar4 tbody td:nth-child(1) {
+  font-size: 20px;
+  color: #99cc99;
+}
+#calendar4 tbody td:nth-child(n+7), #calendar4 .holiday {
+  color: #e52325;
+}
+#calendar4 tbody td.today {
+  outline: 3px solid #99cc99;
+}

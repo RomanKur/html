@@ -1,0 +1,59 @@
+{
+    "hardText":[{
+        "hardheading":"Материнская плата",
+        "hardlink":"moth.html"
+    },
+    {
+        "hardheading":"Центральный процессор",
+        "hardlink":"cpu.html"
+    },
+    {
+        "hardheading":"Оперативная память",
+        "hardlink":"ram.html"
+    },
+    {
+        "hardheading":"Жёсткие диски",
+        "hardlink":"hard_drive.html"
+    },
+    {
+        "hardheading":"Блок питания",
+        "hardlink":"psu.html"
+    },
+    {
+        "hardheading":"Видеокарта",
+        "hardlink":"gpu.html"
+    },
+    {
+        "hardheading":"Звуковая карта",
+        "hardlink":"sound.html"
+    }],
+
+    "perText":[{
+        "perheading":"Мышка",
+        "perlink":"mouse.html"
+    },
+    {
+        "perheading":"Клавиатура",
+        "perlink":"key.html"
+    },
+    {
+        "perheading":"Колонки",
+        "perlink":"speak.html"
+    },
+    {
+        "perheading":"Наушники",
+        "perlink":"head.html"
+    },
+    {
+        "perheading":"Микрофон",
+        "perlink":"mic.html"
+    },
+    {
+        "perheading":"Вебкамера",
+        "perlink":"webcam.html"
+    },
+    {
+        "perheading":"Монитор",
+        "perlink":"disp.html"
+    }]
+}

@@ -1,0 +1,21 @@
+.color_change{
+	border: 1px solid red;
+}
+.error{
+	display: block;
+	color: red;
+}
+.no_error{
+	display: none;
+}
+.container{
+	width: 600px;
+	margin: 0 auto;
+	text-align: left;
+}
+.header{
+	font-family: Arial bold;
+	font-size: 24pt;
+	text-align: center;
+	background-color: #99cc99;
+}

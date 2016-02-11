@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Добавляем новость</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style/admin.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    <div class="container">
+      <h2>Добавляем информацию</h2>
+      <form role="form" method="POST" onsubmit="return news_adding()">
+        <label>Раздел:</label>
+        <div id="selection" class="radio">
+          <label><input id="hardware_sel" type="radio" name="optradio" checked="True">Комплектующие ПК</label>
+          <label><input id="perepheral_sel" type="radio" name="optradio">Компьютерная периферия</label>
+        </div>
+        <div class="form-group">
+          <label for="news_header">Заголовок:</label>
+          <input type="text" class="form-control" id="news_header" placeholder="Заголовок статьи">
+          <div id="empty_header" class="no_error">Это поле обязательно для заполнения</div>
+        </div>
+        <div class="form-group">
+          <label for="news_content">Текст статьи:</label>
+          <textarea  class="form-control" id="news_content" rows="9" placeholder="Текст статьи"></textarea>
+          <div id="empty_content" class="no_error">Это поле обязательно для заполнения</div>
+        </div>
+        <div class="form-group">
+          <label for="news_img">Картинка:</label>
+          <input type="file" class="form-control" id="news_img" placeholder="">
+          <div id="empty_img" class="no_error">Это поле обязательно для заполнения</div>
+        </div>
+        <button type="reset" class="btn btn-default">Очистить</button>
+        <button type="submit" class="btn btn-default">Добавить</button>
+      </form>
+    </div>
+    <script src="js/admin.js"></script>
+    </body>
+  </html>
